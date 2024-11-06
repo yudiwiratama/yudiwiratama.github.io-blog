@@ -1,0 +1,29 @@
+name: Deploy Hugo to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Sesuaikan dengan branch utama yang digunakan di repositorimu
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.112.0'  # Sesuaikan dengan versi Hugo yang kamu gunakan
+
+      - name: Build the Hugo site
+        run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_branch: gh-pages  # Pastikan branch ini ada di repositorimu
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public  # Folder hasil build Hugo
