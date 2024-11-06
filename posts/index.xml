@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on blog.coolapso.sh</title>
+        <link>https://yudiwiratama.github.io-blog/posts/</link>
+        <description>Recent content in Posts on blog.coolapso.sh</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>pt-pt</language>
+        <copyright>All Rights Reserved</copyright>
+        <lastBuildDate>Wed, 06 Nov 2024 03:04:32 +0700</lastBuildDate>
+        <atom:link href="https://yudiwiratama.github.io-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Testing</title>
+            <link>https://yudiwiratama.github.io-blog/posts/testing/</link>
+            <pubDate>Wed, 06 Nov 2024 03:04:32 +0700</pubDate>
+            
+            <guid>https://yudiwiratama.github.io-blog/posts/testing/</guid>
+            <description>hello world!</description>
+            <content type="html"><![CDATA[<p>hello world!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
