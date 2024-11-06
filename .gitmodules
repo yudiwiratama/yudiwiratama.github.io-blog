@@ -1,3 +1,7 @@
 [submodule "public"]
     path = public
     url = https://github.com/yudiwiratama/yudiwiratama.github.io-blog.git
+
+[submodule "themes/hello-friend-4s3ti"]
+	path = themes/hello-friend-4s3ti
+	url = https://github.com/yudiwiratama/hugo-theme-hello-4s3ti
